@@ -1,0 +1,10 @@
+use inc::Module::Install;
+name 'Template-Plugin-Shorten';
+all_from 'lib/Template/Plugin/Shorten.pm';
+license 'MIT';
+build_requires 'Test::More';
+requires 'UNIVERSAL::require';
+requires 'Regexp::Common::URI';
+use_test_base;
+auto_include;
+WriteAll;
