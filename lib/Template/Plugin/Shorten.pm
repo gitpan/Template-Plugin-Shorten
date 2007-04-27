@@ -8,7 +8,7 @@ use Regexp::Common qw(URI);
 
 use base qw(Template::Plugin);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $STYLE   = 'TinyURL';
 
 sub new {

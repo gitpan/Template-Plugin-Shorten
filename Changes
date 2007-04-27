@@ -1,5 +1,10 @@
 Revision history for Perl extension Template::Plugin::Shorten
 
+[Changes for 0.02 - Tue Apr 27 12:54:09 2007]
+
+* Added a prerequisite module into Makefile.PL: Template
+* Renamed a prerequisite module in Makefile.PL: Regexp::Common::URI to Regexp::Common
+
 [Changes for 0.01 - Tue Apr 24 22:26:52 2007]
 
 * original version
